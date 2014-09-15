@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B00AE1219C6C42C00982DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B00AE1119C6C42C00982DDC /* Foundation.framework */; };
+		6B00AE1419C6C42C00982DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B00AE1319C6C42C00982DDC /* CoreGraphics.framework */; };
+		6B00AE1619C6C42C00982DDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B00AE1519C6C42C00982DDC /* UIKit.framework */; };
+		6B00AE1C19C6C42C00982DDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B00AE1A19C6C42C00982DDC /* InfoPlist.strings */; };
+		6B00AE1E19C6C42C00982DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00AE1D19C6C42C00982DDC /* main.m */; };
+		6B00AE2219C6C42C00982DDC /* NNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00AE2119C6C42C00982DDC /* NNAppDelegate.m */; };
+		6B00AE2419C6C42C00982DDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B00AE2319C6C42C00982DDC /* Images.xcassets */; };
+		6B00AE2B19C6C42C00982DDC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B00AE2A19C6C42C00982DDC /* XCTest.framework */; };
+		6B00AE2C19C6C42C00982DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B00AE1119C6C42C00982DDC /* Foundation.framework */; };
+		6B00AE2D19C6C42C00982DDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B00AE1519C6C42C00982DDC /* UIKit.framework */; };
+		6B00AE3519C6C42C00982DDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B00AE3319C6C42C00982DDC /* InfoPlist.strings */; };
+		6B00AE3719C6C42C00982DDC /* PagingScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00AE3619C6C42C00982DDC /* PagingScrollViewDemoTests.m */; };
+		6B00AE4319C6C48F00982DDC /* NNPagingScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00AE4219C6C48F00982DDC /* NNPagingScrollViewController.m */; };
+		6B00AE4719C6C50000982DDC /* NNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00AE4519C6C50000982DDC /* NNHomeViewController.m */; };
+		6B00AE4819C6C50000982DDC /* NNHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B00AE4619C6C50000982DDC /* NNHomeViewController.xib */; };
+		6B00AE5119C6C8C900982DDC /* NNPage1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00AE4F19C6C8C900982DDC /* NNPage1ViewController.m */; };
+		6B00AE5219C6C8C900982DDC /* NNPage1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B00AE5019C6C8C900982DDC /* NNPage1ViewController.xib */; };
+		6B00AE5919C6C90200982DDC /* NNPage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00AE5719C6C90200982DDC /* NNPage2ViewController.m */; };
+		6B00AE5A19C6C90200982DDC /* NNPage2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B00AE5819C6C90200982DDC /* NNPage2ViewController.xib */; };
+		6B00AE6119C6C93600982DDC /* NNPage3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B00AE5F19C6C93600982DDC /* NNPage3ViewController.m */; };
+		6B00AE6219C6C93600982DDC /* NNPage3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B00AE6019C6C93600982DDC /* NNPage3ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B00AE2E19C6C42C00982DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B00AE0619C6C42C00982DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B00AE0D19C6C42C00982DDC;
+			remoteInfo = PagingScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B00AE0E19C6C42C00982DDC /* PagingScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B00AE1119C6C42C00982DDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B00AE1319C6C42C00982DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B00AE1519C6C42C00982DDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B00AE1919C6C42C00982DDC /* PagingScrollViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingScrollViewDemo-Info.plist"; sourceTree = "<group>"; };
+		6B00AE1B19C6C42C00982DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B00AE1D19C6C42C00982DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B00AE1F19C6C42C00982DDC /* PagingScrollViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PagingScrollViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6B00AE2019C6C42C00982DDC /* NNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAppDelegate.h; sourceTree = "<group>"; };
+		6B00AE2119C6C42C00982DDC /* NNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAppDelegate.m; sourceTree = "<group>"; };
+		6B00AE2319C6C42C00982DDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B00AE2919C6C42C00982DDC /* PagingScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B00AE2A19C6C42C00982DDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B00AE3219C6C42C00982DDC /* PagingScrollViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingScrollViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		6B00AE3419C6C42C00982DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B00AE3619C6C42C00982DDC /* PagingScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagingScrollViewDemoTests.m; sourceTree = "<group>"; };
+		6B00AE4119C6C48F00982DDC /* NNPagingScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPagingScrollViewController.h; sourceTree = "<group>"; };
+		6B00AE4219C6C48F00982DDC /* NNPagingScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPagingScrollViewController.m; sourceTree = "<group>"; };
+		6B00AE4419C6C50000982DDC /* NNHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNHomeViewController.h; sourceTree = "<group>"; };
+		6B00AE4519C6C50000982DDC /* NNHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNHomeViewController.m; sourceTree = "<group>"; };
+		6B00AE4619C6C50000982DDC /* NNHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNHomeViewController.xib; sourceTree = "<group>"; };
+		6B00AE4E19C6C8C900982DDC /* NNPage1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPage1ViewController.h; sourceTree = "<group>"; };
+		6B00AE4F19C6C8C900982DDC /* NNPage1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPage1ViewController.m; sourceTree = "<group>"; };
+		6B00AE5019C6C8C900982DDC /* NNPage1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNPage1ViewController.xib; sourceTree = "<group>"; };
+		6B00AE5619C6C90200982DDC /* NNPage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPage2ViewController.h; sourceTree = "<group>"; };
+		6B00AE5719C6C90200982DDC /* NNPage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPage2ViewController.m; sourceTree = "<group>"; };
+		6B00AE5819C6C90200982DDC /* NNPage2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNPage2ViewController.xib; sourceTree = "<group>"; };
+		6B00AE5E19C6C93600982DDC /* NNPage3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPage3ViewController.h; sourceTree = "<group>"; };
+		6B00AE5F19C6C93600982DDC /* NNPage3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPage3ViewController.m; sourceTree = "<group>"; };
+		6B00AE6019C6C93600982DDC /* NNPage3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNPage3ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B00AE0B19C6C42C00982DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00AE1419C6C42C00982DDC /* CoreGraphics.framework in Frameworks */,
+				6B00AE1619C6C42C00982DDC /* UIKit.framework in Frameworks */,
+				6B00AE1219C6C42C00982DDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B00AE2619C6C42C00982DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00AE2B19C6C42C00982DDC /* XCTest.framework in Frameworks */,
+				6B00AE2D19C6C42C00982DDC /* UIKit.framework in Frameworks */,
+				6B00AE2C19C6C42C00982DDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B00AE0519C6C42C00982DDC = {
+			isa = PBXGroup;
+			children = (
+				6B00AE4019C6C47C00982DDC /* NNPagingScrollViewController */,
+				6B00AE1719C6C42C00982DDC /* PagingScrollViewDemo */,
+				6B00AE3019C6C42C00982DDC /* PagingScrollViewDemoTests */,
+				6B00AE1019C6C42C00982DDC /* Frameworks */,
+				6B00AE0F19C6C42C00982DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B00AE0F19C6C42C00982DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE0E19C6C42C00982DDC /* PagingScrollViewDemo.app */,
+				6B00AE2919C6C42C00982DDC /* PagingScrollViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B00AE1019C6C42C00982DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE1119C6C42C00982DDC /* Foundation.framework */,
+				6B00AE1319C6C42C00982DDC /* CoreGraphics.framework */,
+				6B00AE1519C6C42C00982DDC /* UIKit.framework */,
+				6B00AE2A19C6C42C00982DDC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B00AE1719C6C42C00982DDC /* PagingScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE4919C6C83E00982DDC /* Pages */,
+				6B00AE2019C6C42C00982DDC /* NNAppDelegate.h */,
+				6B00AE2119C6C42C00982DDC /* NNAppDelegate.m */,
+				6B00AE2319C6C42C00982DDC /* Images.xcassets */,
+				6B00AE1819C6C42C00982DDC /* Supporting Files */,
+				6B00AE4A19C6C86200982DDC /* Home */,
+			);
+			path = PagingScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		6B00AE1819C6C42C00982DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE1919C6C42C00982DDC /* PagingScrollViewDemo-Info.plist */,
+				6B00AE1A19C6C42C00982DDC /* InfoPlist.strings */,
+				6B00AE1D19C6C42C00982DDC /* main.m */,
+				6B00AE1F19C6C42C00982DDC /* PagingScrollViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B00AE3019C6C42C00982DDC /* PagingScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE3619C6C42C00982DDC /* PagingScrollViewDemoTests.m */,
+				6B00AE3119C6C42C00982DDC /* Supporting Files */,
+			);
+			path = PagingScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		6B00AE3119C6C42C00982DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE3219C6C42C00982DDC /* PagingScrollViewDemoTests-Info.plist */,
+				6B00AE3319C6C42C00982DDC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B00AE4019C6C47C00982DDC /* NNPagingScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE4119C6C48F00982DDC /* NNPagingScrollViewController.h */,
+				6B00AE4219C6C48F00982DDC /* NNPagingScrollViewController.m */,
+			);
+			name = NNPagingScrollViewController;
+			path = ../NNPagingScrollViewController;
+			sourceTree = "<group>";
+		};
+		6B00AE4919C6C83E00982DDC /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE4E19C6C8C900982DDC /* NNPage1ViewController.h */,
+				6B00AE4F19C6C8C900982DDC /* NNPage1ViewController.m */,
+				6B00AE5019C6C8C900982DDC /* NNPage1ViewController.xib */,
+				6B00AE5619C6C90200982DDC /* NNPage2ViewController.h */,
+				6B00AE5719C6C90200982DDC /* NNPage2ViewController.m */,
+				6B00AE5819C6C90200982DDC /* NNPage2ViewController.xib */,
+				6B00AE5E19C6C93600982DDC /* NNPage3ViewController.h */,
+				6B00AE5F19C6C93600982DDC /* NNPage3ViewController.m */,
+				6B00AE6019C6C93600982DDC /* NNPage3ViewController.xib */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		6B00AE4A19C6C86200982DDC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6B00AE4419C6C50000982DDC /* NNHomeViewController.h */,
+				6B00AE4519C6C50000982DDC /* NNHomeViewController.m */,
+				6B00AE4619C6C50000982DDC /* NNHomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B00AE0D19C6C42C00982DDC /* PagingScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B00AE3A19C6C42C00982DDC /* Build configuration list for PBXNativeTarget "PagingScrollViewDemo" */;
+			buildPhases = (
+				6B00AE0A19C6C42C00982DDC /* Sources */,
+				6B00AE0B19C6C42C00982DDC /* Frameworks */,
+				6B00AE0C19C6C42C00982DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagingScrollViewDemo;
+			productName = PagingScrollViewDemo;
+			productReference = 6B00AE0E19C6C42C00982DDC /* PagingScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B00AE2819C6C42C00982DDC /* PagingScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B00AE3D19C6C42C00982DDC /* Build configuration list for PBXNativeTarget "PagingScrollViewDemoTests" */;
+			buildPhases = (
+				6B00AE2519C6C42C00982DDC /* Sources */,
+				6B00AE2619C6C42C00982DDC /* Frameworks */,
+				6B00AE2719C6C42C00982DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B00AE2F19C6C42C00982DDC /* PBXTargetDependency */,
+			);
+			name = PagingScrollViewDemoTests;
+			productName = PagingScrollViewDemoTests;
+			productReference = 6B00AE2919C6C42C00982DDC /* PagingScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B00AE0619C6C42C00982DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nhan Nguyen";
+				TargetAttributes = {
+					6B00AE2819C6C42C00982DDC = {
+						TestTargetID = 6B00AE0D19C6C42C00982DDC;
+					};
+				};
+			};
+			buildConfigurationList = 6B00AE0919C6C42C00982DDC /* Build configuration list for PBXProject "PagingScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B00AE0519C6C42C00982DDC;
+			productRefGroup = 6B00AE0F19C6C42C00982DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B00AE0D19C6C42C00982DDC /* PagingScrollViewDemo */,
+				6B00AE2819C6C42C00982DDC /* PagingScrollViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B00AE0C19C6C42C00982DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00AE1C19C6C42C00982DDC /* InfoPlist.strings in Resources */,
+				6B00AE6219C6C93600982DDC /* NNPage3ViewController.xib in Resources */,
+				6B00AE4819C6C50000982DDC /* NNHomeViewController.xib in Resources */,
+				6B00AE2419C6C42C00982DDC /* Images.xcassets in Resources */,
+				6B00AE5219C6C8C900982DDC /* NNPage1ViewController.xib in Resources */,
+				6B00AE5A19C6C90200982DDC /* NNPage2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B00AE2719C6C42C00982DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00AE3519C6C42C00982DDC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B00AE0A19C6C42C00982DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00AE6119C6C93600982DDC /* NNPage3ViewController.m in Sources */,
+				6B00AE2219C6C42C00982DDC /* NNAppDelegate.m in Sources */,
+				6B00AE4719C6C50000982DDC /* NNHomeViewController.m in Sources */,
+				6B00AE5919C6C90200982DDC /* NNPage2ViewController.m in Sources */,
+				6B00AE4319C6C48F00982DDC /* NNPagingScrollViewController.m in Sources */,
+				6B00AE1E19C6C42C00982DDC /* main.m in Sources */,
+				6B00AE5119C6C8C900982DDC /* NNPage1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B00AE2519C6C42C00982DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00AE3719C6C42C00982DDC /* PagingScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B00AE2F19C6C42C00982DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B00AE0D19C6C42C00982DDC /* PagingScrollViewDemo */;
+			targetProxy = 6B00AE2E19C6C42C00982DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B00AE1A19C6C42C00982DDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B00AE1B19C6C42C00982DDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B00AE3319C6C42C00982DDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B00AE3419C6C42C00982DDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B00AE3819C6C42C00982DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B00AE3919C6C42C00982DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B00AE3B19C6C42C00982DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagingScrollViewDemo/PagingScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "PagingScrollViewDemo/PagingScrollViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B00AE3C19C6C42C00982DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagingScrollViewDemo/PagingScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "PagingScrollViewDemo/PagingScrollViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6B00AE3E19C6C42C00982DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PagingScrollViewDemo.app/PagingScrollViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagingScrollViewDemo/PagingScrollViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PagingScrollViewDemoTests/PagingScrollViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6B00AE3F19C6C42C00982DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PagingScrollViewDemo.app/PagingScrollViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagingScrollViewDemo/PagingScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "PagingScrollViewDemoTests/PagingScrollViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B00AE0919C6C42C00982DDC /* Build configuration list for PBXProject "PagingScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B00AE3819C6C42C00982DDC /* Debug */,
+				6B00AE3919C6C42C00982DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B00AE3A19C6C42C00982DDC /* Build configuration list for PBXNativeTarget "PagingScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B00AE3B19C6C42C00982DDC /* Debug */,
+				6B00AE3C19C6C42C00982DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B00AE3D19C6C42C00982DDC /* Build configuration list for PBXNativeTarget "PagingScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B00AE3E19C6C42C00982DDC /* Debug */,
+				6B00AE3F19C6C42C00982DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B00AE0619C6C42C00982DDC /* Project object */;
+}
